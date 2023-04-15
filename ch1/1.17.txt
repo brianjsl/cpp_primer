@@ -1,0 +1,3 @@
+In the first case it prints the statement (ie. X occurs Y times) only once and immedietly exits the code.
+
+In the latter case there is a seperate print statement for each different value.

@@ -1,0 +1,1 @@
+For loops shorter, while loops more expressive (can do for unlimited number of iterations). 

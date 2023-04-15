@@ -1,0 +1,1 @@
+Not legal. The second and third line have output operators (<<) with no left hand argument (it requires a cout object). Remove the semicolons after line 1 and line 2 to fix or add the corresponding std::cout objects at the beginning. 

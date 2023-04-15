@@ -1,0 +1,1 @@
+Sums all numbers from -100 to 100. The final sum is 0 by symmetry.
