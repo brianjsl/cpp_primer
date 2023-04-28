@@ -1,0 +1,12 @@
+a) *iter++; Legal and goes to the next item of iter (Incrementing iter)
+and returns the string at that address
+b) (*iter)++; IlLegal. Increments the value at the current item of iter and returns that 
+incremented value as an lvalue but since string cant be iterated its illegal.
+c) *iter.empty(); Illegal since . has higher priority and an iterator has no 
+empty() method.
+d) iter -> empty(); Legal and checks if the string at the current element of iter
+is empty or not.
+e) ++*iter; Illegal and since unary operators are right associative, we get the value
+at iter and increment but since we cannot add 1 to a string this is illegal.
+f) iter++ -> empty(); Legal and checks if the string at the original address of iter 
+was empty. 

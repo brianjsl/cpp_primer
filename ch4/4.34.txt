@@ -1,0 +1,4 @@
+a) if (fval) (bool)
+b) dval = fval + ival (fval converts to double and ival converts to double)
+c)dval + ival *cval (cval converts to int and 
+then the result converts to double)

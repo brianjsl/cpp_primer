@@ -1,0 +1,1 @@
+Starts at 0 and goes to 10, when it should start at 0 and ix< array_size should be the condition.

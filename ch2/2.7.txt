@@ -1,0 +1,4 @@
+a) Type char[], represents "Who goes with Fergus"
+b) Type long double, 31.4
+c) Type float, 1024.0
+d) Type long double, 3.14

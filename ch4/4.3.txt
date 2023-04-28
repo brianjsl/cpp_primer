@@ -1,0 +1,1 @@
+Yes, the onus should be on the programmer to generate accurate code.

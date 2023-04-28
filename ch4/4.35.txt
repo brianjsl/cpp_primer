@@ -1,0 +1,7 @@
+a) 'a' is converrted to int and then added to 3 as an int and then converted 
+back to a char
+b) ival is converted to a float nd then the result is multiplied. Then ui is converted
+to a float and the result is subtracted.
+c) ui is converted to float and then multiplied and the result is converted to double.
+d) ival is converted to float and the result is summed with fval and converted to double.
+The result is then converted to a char.

@@ -1,0 +1,5 @@
+That the value will exceed the range of values that the data type can represent.
+
+Eg. int val = 2147483647, int += 1
+    unsigned short val = 65,535, val += 1
+    float i = 9*10^(-127)

@@ -1,0 +1,2 @@
+They are evaluated in left to right order and only up to the point where 
+one of the operators (possibly) returns false.

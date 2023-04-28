@@ -1,0 +1,1 @@
+p is legal since a void pointer can point to anything, while a pointer to long cannot point to an int.

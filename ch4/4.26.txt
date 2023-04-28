@@ -1,0 +1,2 @@
+On some computers there would not be enough bits so there can either be undefined behavior
+or there can be overflow.

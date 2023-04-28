@@ -1,0 +1,4 @@
+a) Illegal snice we have to define object before adding to inut.
+b) Illegal since leads to loss of information and we are using list initialization.
+c) Illegal since wage is not defined. 
+d) Legal.

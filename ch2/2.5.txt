@@ -1,0 +1,4 @@
+a) char, wchar_t, string literal (char array), string literal (wchar_t array) -> first two are chars of different sizes, last two are different type arrays
+b) int, unsigned int, long, unsigned long, int, int -> all represent the value 10, albeit some of different type
+c) double, float, long double -> different types
+d) int, unsigned int, double, double (last one is a different value 0.1)

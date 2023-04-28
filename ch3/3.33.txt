@@ -1,0 +1,2 @@
+The values would be undefined since the remaining values 
+rather than being value initialized are uninitalized.

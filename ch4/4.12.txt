@@ -1,0 +1,2 @@
+If k is bigger than the result of i!=j (which is converted from a bool to 
+an int) than the result is true, otherwise false.

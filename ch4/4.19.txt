@@ -1,0 +1,7 @@
+a) True if ptr is not the nullptr and if the value ptr points to is nonzero (the 
+increment is postfix so the original value it points to must be nonzero)
+
+b) If both ival and ival +1 are nonzero returns true, otherwise false.
+
+c) Invalid since no guarantee on order on which ival is operated. Can be corrected by 
+comparing vec[ival] and ival[ival+1] and then doing ++ival. 

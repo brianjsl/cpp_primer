@@ -1,0 +1,1 @@
+decltype gets the exact return value of the expression (say int& for an expression such as a=b) while auto does template type deduction. An example is given in 2.38.cpp

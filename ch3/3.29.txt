@@ -1,0 +1,2 @@
+Non variable size
+Elements cant be deleted

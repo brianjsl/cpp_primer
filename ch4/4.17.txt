@@ -1,0 +1,2 @@
+Prefix increments and returns the altered value as an lvalue.
+Postfix increments and returns the original, unaltered value as an rvalue.

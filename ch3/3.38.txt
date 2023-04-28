@@ -1,0 +1,3 @@
+Adding two pointers would just add the addresses which would lead to some 
+arbitrary address that may or may not contain objects, and are likely 
+unrelated to the code at hand/

@@ -1,0 +1,4 @@
+((someValue) ? (++x, ++y): --x), --y
+
+If someValue is true we increment both x and y, otherwise we decrement. otherwie, we 
+decrement x and then we discard it and decrement y and return that value.

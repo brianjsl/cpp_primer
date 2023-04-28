@@ -1,0 +1,3 @@
+We would skip the first value and if there are no negative values we would go one
+past the last value and return an error. If there is a negative we would return 
+the first negative value as well.

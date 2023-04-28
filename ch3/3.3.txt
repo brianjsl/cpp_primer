@@ -1,0 +1,1 @@
+whitespace seperates words in the input operator and preceding whitespace (and ending) is ignored. In getline, they are all considered up to the first newline in the line.

@@ -1,0 +1,3 @@
+Rate deals with percentages so probably a float (decimal value required).
+
+Principal and payment deal with dollar values so again a float is a good idea since we need decimals.

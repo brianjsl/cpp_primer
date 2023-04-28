@@ -1,0 +1,1 @@
+Pointers are objects that store the address (or point to) some other object, one past the end of an object, or is a nullptr. References are not objects and can only be defined once, and can be seen as simple "aliases" for other objects.

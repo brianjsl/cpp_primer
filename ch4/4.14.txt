@@ -1,0 +1,3 @@
+First if test is an error, an rvalue can not stand on the left side.
+The second value will result to true since 42 will be assigned to i
+which will evaluate to true since it is nonzero.
