@@ -1,0 +1,15 @@
+a) 
+Viable: void f(int,int), void f(double, double = 3.14)
+Best match: Ambiguous, Error
+
+b) 
+Viable: void f(int), void f(double, double = 3.14)
+Best match: void f(int)
+
+c)
+Viable: void f(int, int), void f(double, double = 3.14)
+Best match: void f(int, int)
+
+d)
+Viable: void f(int, int), void f(double, double = 3.14)
+Best match: void f(double, double = 3.14)

@@ -1,0 +1,2 @@
+Because we need a copy of val (we need to multiply the original value).
+An alternative would be to use (val--)*factorial(val).

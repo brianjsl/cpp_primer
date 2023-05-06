@@ -1,0 +1,10 @@
+A parameter is a local variable that is part of a function definition and must
+be initialized through arguments in a call to said function. A local variable is 
+any variable that is local to some scope (a parameter is a local variable for the
+function). A local static variable is a variable that has lifetime as long as that 
+of the program and thus can be used across function calls.
+
+A set of parameters might be used for any function call (such as when an input value
+is required), a local variable might be used for some intermediate calculations based
+on the input values, and a static variable might be used for some calculation that must
+be used across function calls.

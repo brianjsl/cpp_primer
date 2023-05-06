@@ -1,0 +1,1 @@
+A dangling else is an else statement that can be part of various if statements and is resolved to the nearest if in C++.

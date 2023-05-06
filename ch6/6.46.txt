@@ -1,0 +1,1 @@
+No, since size must be called at runtime), and the arguments passed are not constexprs.

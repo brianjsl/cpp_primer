@@ -1,0 +1,8 @@
+s is a reference to const because s is a string so it is inefficient to copy the value 
+so we use a reference and because we don't alter the value of s itself so we use a 
+reference to const. occurs is a plain reference because it needs to be altered. c on the
+other hand is not a reference because the value is built-in so it is small and we don't
+need to change the value of c itself. If we made s not a reference, we would have to copy
+the entire string which would be inefficient while if we made occurs a reference to const the
+program would not compile because we cannot increment a const object. Also if s was not a 
+reference to const we would not be able to pass in string literals. 

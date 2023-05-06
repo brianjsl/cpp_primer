@@ -1,0 +1,3 @@
+The candidate functions are the set of functions with the same name as the one 
+requested. The viable functions are the ones with parameters that match the 
+arguments given to the function in the call.

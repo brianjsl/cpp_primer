@@ -1,0 +1,5 @@
+The loop takes in a value of s from cin and check if s is equal to sought.
+If s is equal to sought, then the assert sttement will hold true, otherwise
+if the input is invalid, the statement holds false. So will throw an error
+unless the value of s is sought, not a good idea. This will also not be executed
+when run with the NDEBUG statement.

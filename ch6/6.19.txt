@@ -1,0 +1,4 @@
+a) Illegal, only one parameter needed (alternatively can use (23.4,55.1) and 23.4 will be discarded)
+b) Legal.
+c) Legal, 66 is converted to 66.0
+d) Legal.

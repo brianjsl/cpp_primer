@@ -1,0 +1,2 @@
+Would also work, just a pointless multpilication by 1.
+If we pass negatives, it would go indefinitely.

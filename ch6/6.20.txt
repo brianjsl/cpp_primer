@@ -1,0 +1,4 @@
+They should be references to const if the value itself does not need to be changed,
+or the arguments it uses is itself const. If we make a parameter a plain reference 
+and arguments are const this is an error, and otherwise we can not use literals as 
+arguments.

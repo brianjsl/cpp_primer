@@ -1,0 +1,3 @@
+A block is a sequence of statements enclosed in curly braces, and can be used when
+the program syntax requires a single statement but the logic requires multiple statements
+(or when you need to scope, etc.).

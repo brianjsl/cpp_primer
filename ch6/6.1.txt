@@ -1,0 +1,2 @@
+A parameter is a variable which is part of the method's signature, while an 
+argument is the actual value supplied to initialize said parameters in a function call.

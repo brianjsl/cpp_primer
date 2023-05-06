@@ -1,0 +1,2 @@
+A null statement is an empty statement and can be used for example in a loop
+where the side effects of the condition itself does all the work.
