@@ -1,0 +1,3 @@
+Friends are useful when you have nonmember functions that need to access a private variable.
+Pros are that it can alter such variables, cons are that if the implementation of any of
+the member variables the nonmember functions may also need to be changed.

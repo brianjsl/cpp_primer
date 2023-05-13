@@ -1,0 +1,2 @@
+The dummy_fcn would be undefined because the declaration includes a pos
+parameter but pos is not yet defined.

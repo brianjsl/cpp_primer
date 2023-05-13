@@ -1,0 +1,7 @@
+* null_isbn convers "9-999-99999-9" from a char[] to a string.
+* item1 directly initializes the Sales_data item with a string.
+* The last one implicitly converts a char[] to a string and then
+directly initializes the Sales_data item.
+
+If Sales_data is explicit then there will be no difference because 
+we do not use any implicit conversions to Sales_data here.

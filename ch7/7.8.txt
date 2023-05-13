@@ -1,0 +1,3 @@
+read definesits parameter as a plain reference because we need to alter the 
+value of the Sales_data object (the parameter) while in print we only need the
+value and dont need to alter it.

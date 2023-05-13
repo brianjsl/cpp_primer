@@ -1,0 +1,2 @@
+The function can't be constexpr because it has executable code other than 
+a return statement (assignment of a member). 

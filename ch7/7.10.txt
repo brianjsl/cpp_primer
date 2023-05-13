@@ -1,0 +1,2 @@
+If two inputs are defined properly the condition holds true, otherwise it holds false.
+Equivalent to if (cin >> data1 >> data2).

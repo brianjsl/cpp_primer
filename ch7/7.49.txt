@@ -1,0 +1,4 @@
+a) s is implicitly converted to a Sales_data object and then combined.
+b) This is an error since s will be converted as a temp but we can't pass a temp by reference.
+c) This is illegal because combine can not be const. If it were not const however, it would
+be legal since we can implicitly convert a string to a reference to const 

@@ -1,0 +1,3 @@
+Explicitly using this -> member or this.member makes it so that it is 
+irrefutably clear that the member is indeed a member of the class although
+it is extra work and more typing. 

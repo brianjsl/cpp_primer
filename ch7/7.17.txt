@@ -1,0 +1,2 @@
+Purely stylistic other than that the default access level for struct is public
+and private for class.

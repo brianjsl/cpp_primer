@@ -1,0 +1,4 @@
+We would have that we would set # to the 4,0th position of a copy of the Screen
+so then the first line would print XXXXXXXXXXXXXXXXXXXX#XXXX as in our code but
+the second display would print XXXXXXXXXXXXXXXXXXXXXXXXX which was the original 
+value of contents.

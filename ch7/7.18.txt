@@ -1,0 +1,3 @@
+Encapsulation is the OOP principle that specifies how to "hide" features of 
+an object to make it an interface, non-dependent on the inner workings of the
+object (and allows the object to be just like built-ins!)

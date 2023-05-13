@@ -1,0 +1,5 @@
+It doesn't have to be explicit as we can just keep data of the isbn 
+of books that have been sold (if the number sold/revenue, etc) is not
+too importnat. Making it explicit will force us not to forget certain
+values although it won't allow us to easily just use the conversions
+implicitly.

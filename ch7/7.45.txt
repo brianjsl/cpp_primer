@@ -1,0 +1,1 @@
+Legal, since we defined a default constructor for C that is legal.

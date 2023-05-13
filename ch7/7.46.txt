@@ -1,0 +1,6 @@
+a) True, the synthesized default constructor is always defined if no constructor
+is manually defined.
+b) False, the parameter list can be nonempty and instead use default values.
+c) False, some members of class-type can not be value initialized so must provide
+explicit constructors.
+d) False, only if *no* constructors are defined is a default synthesized.t

@@ -1,0 +1,6 @@
+An access specifier can appear as many times as needed. There are no restrictions 
+on the number of access specifiers, although having too many may be convoluted. 
+Members that should be publicly accessible (eg. functions that should be called
+or member variables that can be changed publicly) should be public, while those
+that should only be altered by the class (eg. should be encapsulated) should be
+private.

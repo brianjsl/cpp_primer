@@ -1,0 +1,3 @@
+Yes it can, since all members lie within the storage of the object itself,
+and are of type "string" which can rely on the default versions of copy and 
+assignment.

@@ -1,0 +1,5 @@
+Because vector uses it as the number of arguments in the vector to default initialize
+but if we define some vector as an int, it is ambiguous whether to specify the values
+to that int, or the number of elements to some default value, etc. No such confusion
+arises in a string on the other hand, since it is usually used to implicitly convert
+a char[] to a string.

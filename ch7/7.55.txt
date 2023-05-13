@@ -1,0 +1,2 @@
+No it is not because there is no constexpr constructor and std::string is not 
+a literal type. 
