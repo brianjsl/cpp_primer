@@ -1,0 +1,3 @@
+We don't want to copy because it wastes time so we use a reference and because 
+we do not modify the variable we use a const string& (const auto &). The case
+is identical for entry, and we use auto for ease of typing. 

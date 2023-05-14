@@ -1,0 +1,3 @@
+Because we do not have any default information about any default person,
+so it makes sense to leave all the members default initialized (all the
+member types have default members so this is legal).
