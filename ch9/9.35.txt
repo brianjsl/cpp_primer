@@ -1,0 +1,3 @@
+The size is the number of elements in the vector while the
+capactiy is the number of elements that must be added so that
+the vector must be reallocated.

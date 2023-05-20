@@ -1,0 +1,4 @@
+The iterators must point to an element in the container or one past
+the last element of the container. The end iterator must also not 
+exceed the begin iterator and thus must be reachable by incrementing
+begin.

@@ -1,0 +1,4 @@
+a) Since we insert alphabetically, we must support inserts into the middle.
+So we use a list.
+b) Use a deque since we need to insert at the end and delete at the back.
+c) Use a vector and then sort. No reason to prefer anything else. 

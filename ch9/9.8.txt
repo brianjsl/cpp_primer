@@ -1,0 +1,2 @@
+string<list>::const_iterator for reading elements of the string 
+and use string<list>::iterator for writing.

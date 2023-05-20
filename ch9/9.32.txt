@@ -1,0 +1,2 @@
+The order of evalutation for arguments of a function are undefined so the behavior
+could be possibly illegal if the second argument is run first.

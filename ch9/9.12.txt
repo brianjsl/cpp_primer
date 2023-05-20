@@ -1,0 +1,5 @@
+The former (copy-initialization) must have container type that is identical to the 
+copied container and must have element types that are identical too. The constructor
+that takes an iterator has no such restriction, and the container can be different
+and the element types can be different as long as the elements in the copied container
+can be converted to elements of types in the new container.

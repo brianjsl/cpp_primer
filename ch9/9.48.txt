@@ -1,0 +1,2 @@
+It returns string::npos since the find operator finds the first substring match
+of which there are none.

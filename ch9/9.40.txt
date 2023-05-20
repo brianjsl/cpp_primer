@@ -1,0 +1,4 @@
+The capacity is still 1024 since we still don't exceed 1024 words (256 + 128 = 384 < 1024).
+If it reads 512 words the case is similar.
+1000 leads to capacity that becomes at least 1000+500 = 1500.
+Similarly, for 1048 at least 1048 + 524 = 1569.

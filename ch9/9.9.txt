@@ -1,0 +1,4 @@
+begin returns an iterator while cbegin returns a const_iterator.
+The latter should be used if we don't need to modify the values 
+(since we get a const*) while the former should be used if we
+need to modify values.

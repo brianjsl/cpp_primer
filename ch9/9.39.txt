@@ -1,0 +1,6 @@
+The vector of strings svec has a reserve of at least 1024 elements so 
+it allocates space for at leat 1024 elemnts. Then, as you add elements to 
+svec, up to 1024 of them can be added until reallocation is required. Once 
+you are done adding elements, extra default initialized (blank) strings are 
+added so the size of the new vector is 1.5 times the current size of the
+vector.

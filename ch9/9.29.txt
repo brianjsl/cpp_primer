@@ -1,0 +1,2 @@
+1) Adds 75 elements value-initialized to 0.
+2) Then, deletes 90 elements at the end.

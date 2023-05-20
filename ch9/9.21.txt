@@ -1,0 +1,4 @@
+If we had used a vector instead the call would have still worked except
+it would have had bad performance (O(n) time) since vector does not support
+push_front in constant time (so insert) would first add an element and then
+move all remaining elements in O(n) time.

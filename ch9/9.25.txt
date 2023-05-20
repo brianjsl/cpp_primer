@@ -1,0 +1,4 @@
+This is an error because elem2 must be at least more than elem1 as otherwise there 
+are no elements to remove. If both elem1 and elem2 are the off-the-end iterator the 
+case is the same, otherwise if only elem2 is the off-the-end iterator and elem1 is less
+than we erase all elements from elem1 onwards.

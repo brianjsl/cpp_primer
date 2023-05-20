@@ -1,0 +1,3 @@
+Arrays are fixed size so no extra space is needed and thus has fixed
+capacity (and size). Lists aren't neccesarily stored contiguously 
+(they use pointers) so there is no need for a capacity.

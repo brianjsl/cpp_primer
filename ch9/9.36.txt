@@ -1,0 +1,2 @@
+No it can not. The capactiy must be at least as much as the size,
+otherwise the vector must immediately be reallocated.

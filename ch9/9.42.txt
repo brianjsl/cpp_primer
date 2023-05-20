@@ -1,0 +1,2 @@
+string.reserve(100) will allocate at least enough space for 100 elements making
+the program more efficient.
