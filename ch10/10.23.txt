@@ -1,0 +1,2 @@
+It takes 1 plus the number of arguments of the function you are trying to bind (one for the
+function itself and the rest for the arguments of the function).

@@ -1,0 +1,2 @@
+Then the word would just not be transformed if there is no space
+and there will be an error in building the map if there is a space.

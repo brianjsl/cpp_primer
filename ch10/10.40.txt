@@ -1,0 +1,12 @@
+copy: 
+  -1st parameter: input iterator
+  -2nd parameter: input iterator
+  -3rd parameter(optional): output iterator 
+
+reverse:
+  -1st parameter (bidirectional iterator)
+  -2nd parameter (bidirectional iterator)
+
+unique:
+  -1st parameter (forward iterator)
+  -2nd parameter (forward iterator)

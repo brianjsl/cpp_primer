@@ -1,0 +1,2 @@
+argument: pair<string, vector<int>>
+return value: pair<map<string,vector<int>>::iterator, bool> 

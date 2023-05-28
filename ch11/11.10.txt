@@ -1,0 +1,4 @@
+For the vector<int>::iterator, yes but only if the iterators point to elements
+in the same vector since they can be compared with strict weak ordering. In the 
+case of list<int>::iterator, the answer is no since we can not compare two list
+iterators using <.

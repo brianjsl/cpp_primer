@@ -1,0 +1,3 @@
+The algorithm itself does not change the size of the container. It is the
+*back_insert_iterator* that adds new elements to the container everytime 
+it is assigned and the algorithm just works on the iterator.

@@ -1,0 +1,4 @@
+A map indexes some values based on keys while a set has only the keys
+themselves. You might use a map for a dictionary while you might use
+a set when you need some collection that needs quick access checking 
+eg. a set of words to exclude from a search.

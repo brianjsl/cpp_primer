@@ -1,0 +1,12 @@
+1) Input iterator: read but not write, forward-only, single-pass
+   Supports ++(increment), ==,!=(equality), * (dereference), and -> (arrow)
+2) Output iterator: write but not read, forward-only, single-pass
+   Supports ++(increment), * (assignment dereference)
+3) Forward iterator:write/read, forward-only, multi-pass
+   Supports ++(increment), * (both dereferences), ==,!= (equality), and -> (arrow)
+4) Bidirectional iterator: write/read, forward/backward, multi-pass
+   Supports ++/--(increment/decrement), * (both dereferences), ==,!= (equality), and -> (arrow)
+5) Random-access iterator: write/read, forward/backward, multi-pass, random-access
+   Supports ++/--(increment/decrement), * (both dereferences), ==,!= (equality), and -> (arrow),
+   <, <=, >,>= (relational operators), +,-,+=,-= (relational operators), - (subtraction between iterators)
+   ,[n](subscript operator)

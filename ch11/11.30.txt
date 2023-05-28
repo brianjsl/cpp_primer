@@ -1,0 +1,3 @@
+pos.first gives the value at the position of the element equal to k 
+we are looking at in terms of a pair consisting of the key (k) and the
+value (v) and returns the -> second dereferences and returns the value.

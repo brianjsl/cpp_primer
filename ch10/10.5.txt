@@ -1,0 +1,3 @@
+Since we compare two c style strings when using the equality, we compare the pointer 
+addresses (ie. if the strings actually refer to the same object, rather than the
+values of the strings).

@@ -1,0 +1,3 @@
+If there already is the value of key in the map then the insert would 
+do nothing while the original version changes it regardless (to the 
+last transform).

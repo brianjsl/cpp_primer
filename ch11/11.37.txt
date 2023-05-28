@@ -1,0 +1,6 @@
+An unordered_container can provide better (on average) performance for 
+insert and find (amortized constant if large enough number of buckets)
+if sufficiently good enough, and can also be used if there is no ovious ordering
+relationship among the elements or if maintaining order is prohibitive.
+On the other hand, ordered versions can be cheaper to maintain, and faster for
+certain finds especially before tweaking the hash function.

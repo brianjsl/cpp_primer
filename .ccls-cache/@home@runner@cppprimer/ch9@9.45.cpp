@@ -1,0 +1,16 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+string add_prefix(string s, const string &prefix, const string &suffix) {
+  s.insert(s.begin(), prefix.begin(), prefix.end());
+  s.append(suffix);
+  return s;
+}
+
+int main() {
+  string name = "Brian";
+  string prefix = "Mr. ", suffix = " PhD";
+  cout << add_prefix(name, prefix, suffix) << endl;
+  return 0;
+}
