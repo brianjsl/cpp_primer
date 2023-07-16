@@ -1,0 +1,5 @@
+The algorithm must remain generic and thus can not use any of the container
+operations. Since adding a new element can not be done with just iterators
+(without the actual container operations) we can not change the size of 
+the container with just an algorithm (instead we must use specific insert
+iterators such as a back_insert_iterator).

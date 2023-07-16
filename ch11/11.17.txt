@@ -1,0 +1,5 @@
+a) Legal since c is a multiset so all the strings in the original vector are added
+to the new multiset.
+b) Illegal since there is no push_back operation on multisets
+c) Legal since adds all the strings in the multiset to a vector
+d) Legal since the vector supports push_back.

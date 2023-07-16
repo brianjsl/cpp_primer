@@ -1,0 +1,2 @@
+After we process the memory at p will be freed and p will
+be a dangling pointer.

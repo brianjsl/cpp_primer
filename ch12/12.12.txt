@@ -1,0 +1,6 @@
+a) process(sp); -> Legal, reference count remains 1 
+b) process(new int()) -> Illegal, the constructor for shared_ptr is explicit
+c) process(p) -> Illegal, same reason as above.
+d) process(shared_ptr<int>(p)) -> Legal, but undefined. Creates a shared ptr 
+                                  to p and after the call the memory is freed 
+                                  and p becomes a dangling pointer.

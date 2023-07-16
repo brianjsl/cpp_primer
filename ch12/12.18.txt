@@ -1,0 +1,1 @@
+There is no need, since shared_ptr allows free copying and assignment.

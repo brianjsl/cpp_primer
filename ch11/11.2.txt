@@ -1,0 +1,8 @@
+A list is useful when you don't need random indexing and you 
+need constant time insertions in the middle of the arrays.
+A vector is useful in the most general case as is a deque
+if you need constant forward insertion as well (vectors are generally
+faster than deques otherwise). A map is useful when you need to index
+by a key (for example a dictionary), while a set is useful when you need
+something either ordered or in the case of an unordered list, something
+without duplicates, eg. a list of excluded words.

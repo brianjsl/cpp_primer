@@ -1,0 +1,2 @@
+Because the size of any vector is automatically greater than equal to zero, 
+so the check is already done.

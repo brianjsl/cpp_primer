@@ -1,0 +1,5 @@
+We want to automoatically be able to convert from an initializer_list to a 
+StrBlob type object (as in the assignments in 12.1.cpp). The pros are it is
+easy to intiailize StrBlob objects since we can simply assign to an initializer
+list, the cons are that it can be not clear to differentiate between StrBlobs and
+just regular vectors when intiailizing.

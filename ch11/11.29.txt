@@ -1,0 +1,3 @@
+upper_bound points to the first element larger than the key passed.
+lower_bound points to one past the last element smaller than k.
+equal_range returns a pair consisting of c.end().

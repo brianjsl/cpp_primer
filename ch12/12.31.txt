@@ -1,0 +1,5 @@
+The line numbers would be held in order but would not have O(1) lookup
+and if the same word appears multiple times, it will appear multiple times
+in the line number container. The set approach is better since it is faster
+with O(1) lookup and only leaves one appearance of the line number reducing
+lookup time.

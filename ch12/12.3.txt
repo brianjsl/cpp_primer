@@ -1,0 +1,5 @@
+Yes. The push_back and pop_back functions don't actually alter the data
+member (which is a pointer), it only alters the object that is pointed to
+in the heap (the vector), so the functions can actrually be const (it is 
+probably somewhat confusing to place them as so however, as that is probably
+not the intention).

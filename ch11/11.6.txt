@@ -1,0 +1,4 @@
+A set is always ordered and usually implemented as a BST, and has quick 
+search but slower insertions/deletions, unlike a list which may have faster
+insertions or deletions (amortized constant), doesn't have to be sorted, 
+fast indexing, etc. 
