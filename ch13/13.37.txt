@@ -1,0 +1,1 @@
+See AddFolder, RemFolder in Message.h.

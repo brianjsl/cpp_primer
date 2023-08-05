@@ -1,0 +1,3 @@
+The same serial number three times (one for a,b,c).
+This is an error that occurs because we haven't defined
+a copy-assignment operator. 

@@ -1,0 +1,3 @@
+The output that gets generated is three different serial numbers, but different
+to that of the serial numbers of a,b, and c since numebred s is also copy initialized
+so the serial number is distinct to that of each a,b, and c. 

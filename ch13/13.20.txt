@@ -1,0 +1,6 @@
+The synthesized copy constructor for both TextQuery and QueryResult
+copy the corresponding pointer members and map without changing the
+underlying objects. If we assign the result is similar, and if we delete
+the corresponding pointers are deleted with the underlying object being
+destroyed when the reference count for the shared_ptrs lines/which_lines
+reach 0. 

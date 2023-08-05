@@ -1,0 +1,8 @@
+The copy constructor would not alter the neccesary folders (adding a pointer
+to the newly created Message).
+
+The copy assignment operator would not properly remove the original pointers
+to the folder and add alter the pointer to the Message).
+
+The destructor would not remove the pointers to the Message and would have
+nullptrs in the original folder. 

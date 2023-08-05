@@ -1,0 +1,6 @@
+If we hadn't defined a destructor, then the dynamically allocated
+pointer to string (ps) would have memory that is never properly freed
+which is an error (thus it is usually safer to use a shared pointer).
+If we hadn't defined a copy constructor, HasPtr would act more like a 
+pointer, with both the copy and the original pointing to the same
+dynamically allocated string in the heap. 

@@ -1,0 +1,3 @@
+No, because the default swap does the exact same behavior and does not save any time
+(the problem with the default in the value version was the unneccesary copying into 
+a new temporary string).

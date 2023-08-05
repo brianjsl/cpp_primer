@@ -1,0 +1,4 @@
+When we assign a StrBlob to another, the shared_ptr data is copied
+and increases the reference count although the underlying vector stays
+the same (is not copied).  For the StrBlobPtr class, the curr variable
+is copied, while wptr follows just like the shared_ptr data. 

@@ -1,0 +1,4 @@
+If we used copy and swap, we would add a new copy rhs of the original 
+message to each of the folders and then swap those messages (which will
+correctly change the current message, albeit with much more work), but
+there will be an extra copy of the original rhs message inside each folder.

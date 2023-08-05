@@ -1,0 +1,6 @@
+A copy-assignment operator is an operator that defines how assignment works 
+for objects of some class type. It is used when assignment is performed (for an
+operator that is of course, already initialized). The synthesized copy-assignment
+operator works analogously to the copy constructor, instead for assignment using the
+memberwise assignment operators for the members. It is synthesized when the class
+does not define its own copy-assignment operator.

@@ -1,0 +1,6 @@
+A destructor member is a member function that is run when an object of the
+class type is destroyed (either implicitly or explicitly). The synthesized
+destructor is created implicitly if no other destructor is created and simply
+destroys each member of the class using the destructors of the respective member
+variables (or does nothing in the case of built-ins as they are simply overwritten
+later on). 

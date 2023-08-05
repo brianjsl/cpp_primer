@@ -1,0 +1,2 @@
+All parameters to a copy constructor must be references,
+otherwise there will be an indefinite loop of copy constructors.

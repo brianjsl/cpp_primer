@@ -1,0 +1,5 @@
+If we defined it as just a Folder, we would have unnecesary copying 
+(of the set msgs), while if we used const Folder &, we would not be
+able to run addMsg since the member is not a const member (and it 
+can't be defined as a const member since it alters the Folder by
+calling insert). 

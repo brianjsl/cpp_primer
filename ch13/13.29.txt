@@ -1,0 +1,2 @@
+We are not calling the same swap (we are calling the swap for the string* and ints)
+which are different swaps compared to the void swap(HasPtr &lhs, HasPtr &rhs) function.

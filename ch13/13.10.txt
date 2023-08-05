@@ -1,0 +1,7 @@
+When a StrBlob is destroyed the data shared_ptr is decremented (since
+the pointer is destroyed) and unless another StrBlob also uses the same
+data as a shared_ptr, the underlying data is also destroyed since the 
+reference count reaches 0. 
+
+For a StrBlobPtr, the weak pointer member is destroyed (the underlying
+data is unaffected), and nothing is done to the curr data member. 

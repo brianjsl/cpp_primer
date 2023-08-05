@@ -1,0 +1,5 @@
+A copy consturctor is a constructor that is defined with parameter
+equal to a reference to an object of the same class and other parameters
+having default values.
+
+A copy constructor can be used for copy initialization.

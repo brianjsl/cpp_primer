@@ -1,0 +1,11 @@
+The copy constructor must be able to create a new shared pointer that 
+seperately copies the underlying vector so the newly created pointer can
+point to it. 
+
+The copy assignment operator must first free the underlying shared_ptr 
+by resetting the shared_ptr and assigning it to a newly made shared_ptr
+containing a vector that is copied from that of the original pointer.
+
+The class does not need a destructor because shared_ptrs automatically
+destroy the underlying objects when the reference count reaches zero so 
+we can rely on the implicitly defined destructor.
