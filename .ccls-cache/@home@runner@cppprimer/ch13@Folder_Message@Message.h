@@ -1,3 +1,5 @@
+#pragma once
+
 #include "Folder.h"
 #include <set>
 #include <string>

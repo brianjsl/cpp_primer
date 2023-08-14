@@ -1,0 +1,6 @@
+We used postfix to construct on the first available block
+before incrementing the first_free pointer.
+
+If we used prefix, we would construct an element *after*
+the first free element, skipping an unconstructed allocated
+block of memory.

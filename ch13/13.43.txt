@@ -1,0 +1,1 @@
+See StrVec.cpp. The lambda is a bit shorter, and possibly slightly more clear.

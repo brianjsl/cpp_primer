@@ -1,0 +1,4 @@
+An lvalue reference (&) can be treated as aliases for another object
+be it a built in type or class type. Rvalue references on the other hand
+are alias identifiers for temporary values (rvalues), defined using the 
+&& operator. 
