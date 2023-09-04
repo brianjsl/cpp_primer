@@ -1,0 +1,10 @@
+a) Arithmetic operator that can convert either operand so it should not be a class member.
+b) Compound operator so it ought to be a class member.
+c) Increment operator, change state of the object so it should be a class member.
+d) Arrow operator must be a class member.
+e) We do not have access to the iostream objects, so we need to use a nonmber function.
+f) Does not affect members and is a binary operator so it should be a nonmember function, but
+   should not be overloaded anyway, since && is short-circuit.
+g) Can be defined as either, but using a class member does not allow for class-conversion so a
+   nonmember should be preferred.
+h) Call function(()) must be a member function.

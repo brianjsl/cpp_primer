@@ -1,0 +1,7 @@
+Overloaded operators can change the definition of what some operator means 
+(for example the built in version of an operator) by expanding it's definition
+to class types as well. 
+
+They are the same as the built-in operators in that they use the same implicit
+symbol and should provide (semantically) the same result when applied to objects
+of class types as they would when applied to objects of built-in type.

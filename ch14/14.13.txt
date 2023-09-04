@@ -1,0 +1,1 @@
+It should support addition, subtraction, and multiplication by an integer. 

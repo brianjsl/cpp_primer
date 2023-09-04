@@ -1,0 +1,5 @@
+String (loop, see implementatino)
+StrVec (similar to above)
+StrBlobPtr (here we compare pointers using weak_ptr.lock() since weak pointer 
+doesn't have an equality operator)
+StrBlob (loop through and check for equality of the underlying Strings)

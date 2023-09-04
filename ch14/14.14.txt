@@ -1,0 +1,3 @@
+Using operator += results in one copy of each of the lhs and the rhs when the operator+ 
+function is called, while the other way around (defining operator first) results in 
+copies for *both* the member compound addition function and the nonmember function. 

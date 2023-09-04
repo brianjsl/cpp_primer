@@ -1,0 +1,4 @@
+Copy constructors should be defined, but can be set to default.
+Move constructors don't really have to be defined (since we are
+only dealing with primitive ints, so there is no real cost difference
+between simple copies and moves), but they can't hurt to be defined.

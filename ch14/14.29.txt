@@ -1,0 +1,2 @@
+Increment and decrement modify the state of the member variables (by definition!) so 
+they should not be defined as const.

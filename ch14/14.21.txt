@@ -1,0 +1,4 @@
+This approach is worse because the + operator stores a copy while 
+our original += just changes the data inside (no copy made). There
+is also extra time used for function calls, although the difference
+between our original approach and the current one is near negligible.

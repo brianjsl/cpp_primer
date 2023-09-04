@@ -1,0 +1,1 @@
+Yes, since two dates can be equal. See Date/

@@ -1,0 +1,3 @@
+a) Sales_data will work as intended with isbn "0-201-9999=9", 10 units sold, and 24.95 as price.
+b) An error will occur since because we enter a string "0-210-99999-9" for a double variable (price) which 
+   gives an error in the stream. 
