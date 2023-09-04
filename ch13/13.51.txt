@@ -1,0 +1,5 @@
+The function is legal because we are about to destroy the unique_ptr that we
+are creating, ie. the thing we are returning is an rvalue (rather than an lvalue)
+so the unique pointer "knows" it can take ownership of the object that is about to
+be released. Thus, it can use the move operator rather than the copy operator and 
+only one pointer to the memory remains.

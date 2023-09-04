@@ -1,10 +1,10 @@
-include<initializer_list>
+#include<initializer_list>
 #include <memory>
 #include <stdexcept>
 #include <string>
 #include <vector>
 
-    class StrBlobPtr;
+class StrBlobPtr;
 class ConstStrBlobPtr;
 
 class StrBlob {
@@ -31,6 +31,7 @@ public:
   bool empty() const { return data->empty(); };
 
   void push_back(const std::string &t) { data->push_back(t); };
+  void push_back(std::string &&t) { data->push_back(std::move(t)); };
   void pop_back();
 
   std::string &front();

@@ -1,0 +1,2 @@
+Foo(*this) invokes the copy constructor which returns an rvalue which when run with sorted
+invokes the other sorted operator (the rvalue operator), so we get a legal sorted function.

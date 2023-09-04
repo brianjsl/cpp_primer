@@ -1,0 +1,8 @@
+When we run hp=hp2, because hp2 is an lvalue, the copy assignment operator
+is invoked (since it is the closest match) and thus hp2 is copied into rhs 
+parameter and then swap is run. Using std::move(hp2) returns an rvalue and
+since our assignment operator is both the move and copy-assignment operator
+the assignment operator is invoked. hp2 is however moved into rhs rather than
+copied since the move constructor is a more exact fit, before swapping. So
+overall, the copy assignment operator is used for the lvalue and the 
+move assignment for the rvalue.

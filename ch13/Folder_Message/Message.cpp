@@ -59,3 +59,26 @@ void Message::remFolder(Folder *fp) {
   folders.erase(fp);
   fp->remMsg(this);
 }
+
+void Message::move_Folders(Message* m) {
+    folders = std::move(m->folders);
+    for (auto f : folders) {
+        f->remMsg(m);
+        f->addMsg(this);
+    }
+    m->folders.clear();
+}
+
+//Use move constructor for string and for folders
+Message::Message(Message&& m) : contents(std::move(m.contents)) {
+    move_Folders(&m);
+}
+
+Message& Message::operator=(Message&& rhs) {
+    if (this != &rhs) {
+        remove_from_Folders();
+        contents = std::move(rhs.contents);
+        move_Folders(&rhs);
+    }
+    return *this;
+}

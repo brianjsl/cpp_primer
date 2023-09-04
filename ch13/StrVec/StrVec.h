@@ -16,6 +16,10 @@ public:
   StrVec &operator=(const StrVec &);
   ~StrVec();
 
+  // move semantics
+  StrVec(StrVec&&);
+  StrVec& operator=(StrVec&&) noexcept;
+
   // member functions
   void push_back(const std::string &);
   size_t size() const { return first_free - elements; }

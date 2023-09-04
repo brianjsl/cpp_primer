@@ -31,6 +31,7 @@ String &String::operator=(const String &rhs) {
 
 String::String(const char *s)
     : elements(nullptr), first_free(nullptr), cap(nullptr) {
+    std::cout << "String(const char *s)" << std::endl;
   auto begin = s;
   while (*s != '\0') {
     ++s;
@@ -55,7 +56,7 @@ void String::reserve(size_t n) {
   }
 }
 
-String &String::operator+(const String &rhs) {
+String& String::operator+(const String &rhs) {
   reserve(size() + rhs.size());
   auto dest = first_free;
   auto newitem = rhs.begin();
@@ -80,3 +81,22 @@ void String::reallocate() {
   first_free = dest;
   cap = elements + newcapacity;
 }
+
+String::String(String&& s) noexcept: elements(s.elements), first_free(s.first_free), cap(s.cap) {
+    std::cout << "String(String &&s) noexcept" << std::endl;
+    s.elements = s.first_free = s.cap = nullptr;
+}
+
+String& String::operator=(String&&rhs) noexcept {
+    std::cout << "String& operator=(String &&s) noexcept" << std::endl;
+    if (this != &rhs) {
+        free();
+        elements = rhs.elements;
+        first_free = rhs.first_free;
+        cap = rhs.cap;
+        rhs.elements = rhs.first_free = rhs.cap = nullptr;
+    }
+    return *this;
+}
+
+std::allocator<char> String::alloc;

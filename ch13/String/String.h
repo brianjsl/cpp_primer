@@ -13,6 +13,10 @@ public:
   String &operator=(const String &);
   ~String();
 
+  //move semantics
+  String(String&&) noexcept;
+  String& operator=(String&&) noexcept;
+
   // member functions
   size_t size() const { return first_free - elements; }
   size_t length() const { return first_free - elements; }
