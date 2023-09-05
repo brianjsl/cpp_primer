@@ -1,0 +1,3 @@
+Lambdas were added to make it faster to add functions as input arguments and when a quick small
+function is needed. Just using a lambda is in general quite a bit faster than writing the corresponding
+class and it would be verbose to have to do so for small functions like BoundTest (see 14.38).

@@ -38,6 +38,10 @@ public:
     StrBlobPtr operator++(int);
     StrBlobPtr operator--(int);
 
+    //overloaded dereference
+    std::string& operator*() const;
+    std::string* operator->() const;
+
 private:
     std::shared_ptr<std::vector<std::string>> check(std::size_t,
         const std::string&) const;

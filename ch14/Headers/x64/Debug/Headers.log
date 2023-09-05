@@ -1,8 +1,5 @@
-﻿  StrBlob.cpp
-  StrBlobPtr.cpp
-  StrVec.cpp
+﻿  Date.cpp
+  Sales_Data.cpp
+  main.cpp
   Generating Code...
-C:\Users\realq\source\repos\cpp_primer\ch14\Headers\StrBlob.cpp(17): warning C4717: 'StrBlob::front': recursive on all control paths, function will cause runtime stack overflow
-C:\Users\realq\source\repos\cpp_primer\ch14\Headers\StrBlob.cpp(22): warning C4717: 'StrBlob::back': recursive on all control paths, function will cause runtime stack overflow
-C:\Users\realq\source\repos\cpp_primer\ch14\Headers\StrBlob.cpp(12): warning C4717: 'StrBlob::pop_back': recursive on all control paths, function will cause runtime stack overflow
   Headers.vcxproj -> C:\Users\realq\source\repos\cpp_primer\ch14\x64\Debug\Headers.exe

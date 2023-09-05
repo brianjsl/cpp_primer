@@ -1,0 +1,5 @@
+It's probably a bad idea to define them since the conversions are
+ambiguous and it would probably be better to just define member functions
+to get the objects.
+
+So if we did end up writing these conversions we should probably make them explicit. 

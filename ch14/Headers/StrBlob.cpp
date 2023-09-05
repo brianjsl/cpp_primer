@@ -1,4 +1,5 @@
 #include "StrBlobPtr.h"
+#include "ConstStrBlobPtr.h"
 #include "StrBlob.h"
 
 void StrBlob::check(size_type i, const std::string& msg) const {
@@ -25,14 +26,17 @@ StrBlobPtr StrBlob::begin() { return StrBlobPtr(*this); };
 
 StrBlobPtr StrBlob::end() { return StrBlobPtr(*this, this->size()); }
 
-StrBlobPtr StrBlob::cbegin() const { return  StrBlobPtr(*this); };
-StrBlobPtr StrBlob::cend() const { return StrBlobPtr(*this, this->size()); };
+ConstStrBlobPtr StrBlob::cbegin() const { return  ConstStrBlobPtr(*this); };
+ConstStrBlobPtr StrBlob::cend() const { return ConstStrBlobPtr(*this, this->size()); };
 
 bool operator==(const StrBlob& lhs, const StrBlob& rhs) {
     if (lhs.size() != rhs.size()) return false;
-    for (auto i = 0; i != lhs.size(); ++i) {
+    /*   for (auto i = 0; i != lhs.size(); ++i) {
         if (*(lhs.data->begin() + i) != *(rhs.data->begin() + i))
             return false;
+    }*/
+    for (auto lidx = lhs.cbegin(), ridx = rhs.cbegin(); lidx != lhs.cend(); ++lidx, ++ridx) {
+        if (*lidx != *ridx) return false;
     }
     return true;
 }
@@ -42,7 +46,7 @@ bool operator!=(const StrBlob& lhs, const StrBlob& rhs) {
 };
 
 void StrBlob::print() {
-    for (auto idx = data->begin(); idx != data->end(); ++idx) {
+    for (auto idx = data ->cbegin(); idx != data->cend(); ++idx) {
         std::cout << *idx << " ";
     }
 }

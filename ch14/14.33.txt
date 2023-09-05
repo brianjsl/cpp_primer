@@ -1,0 +1,3 @@
+An arbitrary number as you can overload to match as many operands as you would
+like (the standard rules for overloading remain in place, ie. can't have the
+same number of parameters with convertible/ambiguous types).

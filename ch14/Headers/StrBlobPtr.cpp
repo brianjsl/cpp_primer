@@ -85,5 +85,18 @@ StrBlobPtr operator+(const StrBlobPtr& p, size_t n) {
 }
 
 StrBlobPtr operator-(const StrBlobPtr& p, size_t n) {
-    return p + (-n);
+    StrBlobPtr ret = p;
+    p.check(p.curr + n - 1, "increment past end of StrBlobPtr");
+    ret.curr -= n;
+    return ret;
 }
+
+
+std::string& StrBlobPtr::operator*() const {
+    auto p = check(curr, "dereference past end of StrBlobPtr");
+    return (*p)[curr];
+};
+
+std::string* StrBlobPtr::operator->() const {
+    return & this -> operator*();
+};

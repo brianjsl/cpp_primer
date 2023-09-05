@@ -24,7 +24,7 @@ class Date {
 public:
 
 	//Default Constructors
-	Date(int month = 1, int day = 1, int year = 2023) : year(year), month(month), day(day) {
+	explicit Date(int month = 1, int day = 1, int year = 2023)  : year(year), month(month), day(day) {
 		// Set default to new years day of the current year
 		if (!check_mth())
 			throw std::invalid_argument("Invalid Month");
@@ -33,7 +33,7 @@ public:
 		daynum = get_daynum(month, day, year);
 	}
 
-	Date(std::istream& is) : year(2023), month(1), day(1), daynum(0) { is >> *this; }
+	explicit Date(std::istream& is): year(2023), month(1), day(1), daynum(0) { is >> *this; }
 
 
 	//Gets date from a string (in the formate m/d/y)
@@ -56,7 +56,7 @@ public:
 	}
 
 	//Gets date from number of days since 1/1 of Year 0.
-	Date(const int daynum) : daynum(daynum) {
+	explicit Date(const int daynum): daynum(daynum) {
 		auto mdy = get_mdy(daynum);
 		month = std::get<0>(mdy);
 		day = std::get<1>(mdy);
@@ -80,6 +80,10 @@ public:
 
 	int get_daynum_curr() const {
 		return get_daynum(month, day, year);
+	}
+
+	explicit operator bool() const {
+		return check_mth() && check_day() && (year >= 0) && valid_comb(day, month, year);
 	}
 
 

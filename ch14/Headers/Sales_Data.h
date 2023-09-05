@@ -27,6 +27,14 @@ public:
 
     Sales_data& operator+=(const Sales_data&);
     Sales_data& operator=(std::string);
+
+    explicit operator std::string() const {
+        return bookNo;
+    }
+
+    explicit operator double() const {
+        return revenue;
+    }
 };
 
 

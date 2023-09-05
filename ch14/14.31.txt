@@ -1,0 +1,3 @@
+We use exclusively smart pointers and builtins which are automatically destroyed
+and since we copy the pointers and values directly, we can just use the default
+constructors.

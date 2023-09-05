@@ -1,0 +1,4 @@
+Our current implementation of Date doesn't allow invalid dates to be constructed
+but invalid dates can be created by subtracting enough days from Date so we should
+probably define it (see Date/ for implementation). This operator should be explicit so that 
+we don't get surprising results in non-condition expressions.

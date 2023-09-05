@@ -1,0 +1,3 @@
+operator const int() is a conversion to the const int type that can mutate the members
+of Integral,  while operator int() const converts to an int type (and does not mutate
+the members of Integral).

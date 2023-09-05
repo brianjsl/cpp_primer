@@ -6,10 +6,12 @@
 #include <iostream>
 
 class StrBlobPtr;
+class ConstStrBlobPtr;
 
 class StrBlob {
 public:
     friend class StrBlobPtr;
+    friend class ConstStrBlobPtr;
     friend bool operator==(const StrBlob&, const StrBlob&);
     friend bool operator!=(const StrBlob&, const StrBlob&);
     friend bool operator<(const StrBlob&, const StrBlob&);
@@ -50,8 +52,8 @@ public:
     StrBlobPtr begin();
     StrBlobPtr end();
 
-    StrBlobPtr cbegin() const;
-    StrBlobPtr cend() const;
+    ConstStrBlobPtr cbegin() const;
+    ConstStrBlobPtr cend() const;
 
     void print();
 
