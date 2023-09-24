@@ -1,0 +1,2 @@
+The protected access specifier makes it so that such memebers are accesible by all derived classes.
+but are unaccessible to outside classes (similar to private).;

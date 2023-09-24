@@ -1,0 +1,5 @@
+Static type: The type to which a variable is declared. This type is known at compile time.
+
+Dynamic type: The type of the object in memory that the variable represents. This type is 
+known only at run time. For non-reference and non-pointer variables, this type is equivalent
+to the static type. 

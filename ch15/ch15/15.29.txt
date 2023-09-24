@@ -1,0 +1,2 @@
+See Headers/15.29.cpp. Discrepancy exists due to discount (but there could be no
+discrepancy if we don't buy enough for the discount to accrue).

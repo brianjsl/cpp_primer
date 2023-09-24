@@ -1,0 +1,11 @@
+a) Query(string s) -> WordQuery(string s) is run with s="fiery" and s="bird". Then, AndQuery(Query&, Query&) on those
+corresponding Query objects, which runs the BinaryQuery constructor and then Query(std::shared_ptr<Query_base> query)
+constructor to get a Query object from the AndQuery object. Query(string s) -> WordQuery(string s) run again with s = "wind"	
+and then an OrQuery(Query&, Query&) constructor on the Two Query objects (one from the OrQuery and one from the andQuery)
+and then Query(shared_ptr<Query_base> query) on that to get a final Query object. 
+b) cout << q calls q-> rep() which runs BinaryQuery.rep() which calls Query -> rep() which is a WordQuery.rep() on the rhs 
+(which produces "wind")	and a Query -> rep() on the lhs which produces a BinaryQuery.rep() which again calls two Query -> rep()
+corresponding to the two WordQuery::rep()s.
+c) q.eval() calls q->eval(t) (with q being the internal q) which calls OrQuery::eval(t) which calls two Query::eval(t)s. 
+One of the Query::eval(t)s calls AndQuery::eval() and the other a WordQuery::eval(). Then AndQuery calls the corresponding
+Query and WordQuery eval calls.

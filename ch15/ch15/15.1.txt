@@ -1,0 +1,3 @@
+A virtual member is a member that is expected to be overriden in any derived classes from the 
+base class. These members are dynamically binded at runtime when called through a pointer or
+a reference.

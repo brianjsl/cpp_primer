@@ -1,0 +1,5 @@
+ifstream inherits from the base class istream and since read
+takes as a parameter a reference to the base class istream, we
+can pass ifstream which has a base class part that is compatible
+with the function (even though the dynamic type and the static type 
+differ!). 

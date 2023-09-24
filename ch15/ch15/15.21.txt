@@ -1,0 +1,4 @@
+Graphical File Formats (a)
+
+Inheritance hiearchy:
+File -> Graphical File -> gif/tiff/jpeg/bmp (all inheritances should be public)

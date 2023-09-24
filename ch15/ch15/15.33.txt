@@ -1,0 +1,2 @@
+QueryBase is an abstract class so no members of such type can be directly created, copied, moved, or 
+assigned. 

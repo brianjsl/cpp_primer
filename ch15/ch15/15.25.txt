@@ -1,0 +1,6 @@
+We defined a default constructor for Disc_quote so that all the derived types could have
+a synthesized constructor that could run the default constructor of the Base class namely
+Disc_quote. If the default constructor for Disc_quote was defined as deleted, then Bulk_quote
+would also have a deleted constructor, so we could not define a Bulk_quote with default arguments
+(we would have to use one of the other defined constructors), so we could not define a Bulk_quote with default arguments
+(we would have to use one of the other defined constructors).

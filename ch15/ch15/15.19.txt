@@ -1,0 +1,6 @@
+Pub_derv: Legal, there is a derived to base class conversion since publicly derived class
+Priv_derv: Legal, member function can always use derived to base class conversion 
+Prot_derv: Legal, member function can always use derived to base class conversion
+Derived_from_Public: Legal, since Pub_derv is publicly derived from base class
+Derived_from_Private: Illegal, since Prot_derv privately derived
+Derived_from_Protected: Legal, since Prot_derv is protectedly derived.

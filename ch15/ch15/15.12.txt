@@ -1,0 +1,2 @@
+Yes, the use case is when the member function overrides the base class but
+further derived classes can no longer override the virtual member function.

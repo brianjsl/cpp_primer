@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Headers", "Headers\Headers.vcxproj", "{22F23CDE-879D-4BD6-A825-C7F51436907C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{921BDD13-0D18-49ED-8FA9-17D0020A1AD4}"
+	ProjectSection(SolutionItems) = preProject
+		15.1.txt = 15.1.txt
+		15.10.txt = 15.10.txt
+		15.11.txt = 15.11.txt
+		15.12.txt = 15.12.txt
+		15.13.cpp = 15.13.cpp
+		15.14.txt = 15.14.txt
+		15.15.txt = 15.15.txt
+		15.16.txt = 15.16.txt
+		15.17.txt = 15.17.txt
+		15.18.txt = 15.18.txt
+		15.19.txt = 15.19.txt
+		15.2.txt = 15.2.txt
+		15.20.txt = 15.20.txt
+		15.21.txt = 15.21.txt
+		15.22.txt = 15.22.txt
+		15.23.cpp = 15.23.cpp
+		15.24.txt = 15.24.txt
+		15.25.txt = 15.25.txt
+		15.26.txt = 15.26.txt
+		15.27.txt = 15.27.txt
+		15.28.txt = 15.28.txt
+		15.29.txt = 15.29.txt
+		15.3.txt = 15.3.txt
+		15.30.txt = 15.30.txt
+		15.32.txt = 15.32.txt
+		15.31.txt = 15.31.txt
+		15.33.txt = 15.33.txt
+		15.34.txt = 15.34.txt
+		15.35.txt = 15.35.txt
+		15.36.txt = 15.36.txt
+		15.37.txt = 15.37.txt
+		15.38.cpp = 15.38.cpp
+		15.39.txt = 15.39.txt
+		15.4.cpp = 15.4.cpp
+		15.40.txt = 15.40.txt
+		15.41.txt = 15.41.txt
+		15.42.txt = 15.42.txt
+		15.5.txt = 15.5.txt
+		15.6.txt = 15.6.txt
+		15.7.txt = 15.7.txt
+		15.8.txt = 15.8.txt
+		15.9.txt = 15.9.txt
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextQuery", "TextQuery\TextQuery.vcxproj", "{E7305199-887B-4F93-9330-E3DFEF0AF574}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15.4.1", "15.41\15.4.1.vcxproj", "{2811DAFA-716C-4F68-839C-091B26685F19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22F23CDE-879D-4BD6-A825-C7F51436907C}.Debug|x64.ActiveCfg = Debug|x64
+		{22F23CDE-879D-4BD6-A825-C7F51436907C}.Debug|x64.Build.0 = Debug|x64
+		{22F23CDE-879D-4BD6-A825-C7F51436907C}.Debug|x86.ActiveCfg = Debug|Win32
+		{22F23CDE-879D-4BD6-A825-C7F51436907C}.Debug|x86.Build.0 = Debug|Win32
+		{22F23CDE-879D-4BD6-A825-C7F51436907C}.Release|x64.ActiveCfg = Release|x64
+		{22F23CDE-879D-4BD6-A825-C7F51436907C}.Release|x64.Build.0 = Release|x64
+		{22F23CDE-879D-4BD6-A825-C7F51436907C}.Release|x86.ActiveCfg = Release|Win32
+		{22F23CDE-879D-4BD6-A825-C7F51436907C}.Release|x86.Build.0 = Release|Win32
+		{E7305199-887B-4F93-9330-E3DFEF0AF574}.Debug|x64.ActiveCfg = Debug|x64
+		{E7305199-887B-4F93-9330-E3DFEF0AF574}.Debug|x64.Build.0 = Debug|x64
+		{E7305199-887B-4F93-9330-E3DFEF0AF574}.Debug|x86.ActiveCfg = Debug|Win32
+		{E7305199-887B-4F93-9330-E3DFEF0AF574}.Debug|x86.Build.0 = Debug|Win32
+		{E7305199-887B-4F93-9330-E3DFEF0AF574}.Release|x64.ActiveCfg = Release|x64
+		{E7305199-887B-4F93-9330-E3DFEF0AF574}.Release|x64.Build.0 = Release|x64
+		{E7305199-887B-4F93-9330-E3DFEF0AF574}.Release|x86.ActiveCfg = Release|Win32
+		{E7305199-887B-4F93-9330-E3DFEF0AF574}.Release|x86.Build.0 = Release|Win32
+		{2811DAFA-716C-4F68-839C-091B26685F19}.Debug|x64.ActiveCfg = Debug|x64
+		{2811DAFA-716C-4F68-839C-091B26685F19}.Debug|x64.Build.0 = Debug|x64
+		{2811DAFA-716C-4F68-839C-091B26685F19}.Debug|x86.ActiveCfg = Debug|Win32
+		{2811DAFA-716C-4F68-839C-091B26685F19}.Debug|x86.Build.0 = Debug|Win32
+		{2811DAFA-716C-4F68-839C-091B26685F19}.Release|x64.ActiveCfg = Release|x64
+		{2811DAFA-716C-4F68-839C-091B26685F19}.Release|x64.Build.0 = Release|x64
+		{2811DAFA-716C-4F68-839C-091B26685F19}.Release|x86.ActiveCfg = Release|Win32
+		{2811DAFA-716C-4F68-839C-091B26685F19}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5520377-65DD-4E61-A359-FC1CAEF081C9}
+	EndGlobalSection
+EndGlobal

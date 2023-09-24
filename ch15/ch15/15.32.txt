@@ -1,0 +1,6 @@
+When an object of type Query is copied, we create another object that points to the same
+Query_base class (with incremented reference count). If we move, we still point to the same
+Query_base object but the reference count stays the same because the moved from object is 
+nullified. If it is destroyed, depending on how many copies of the Query exist, the Query_base
+object pointed to has reference count decreased until no more objects of such type exist and then
+the object is freed.

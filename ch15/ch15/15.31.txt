@@ -1,0 +1,12 @@
+a) Query(s1) | Query(s2) & ~Query(s3) 
+Query(s1) | (Query(s2) & (~Query(s3)))
+
+Generates a Query object which points to a OrQuery with two operands a WordQuery and an AndQuery. 
+The AndQuery points to a WordQuery and a NotQuery which points to a WordQuery.
+
+b) Query(s1) | (Query(s2) & ~Query(s3))
+Same as above as order of precedence makes it so that the two queries are grouped equivalently.
+
+c) (Query(s1) & Query(s2)) | (Query(s3) & Query(s4))
+Generates a Query that points to an OrQuery which points to two AndQuerys, each of which point to two 
+WordQuerys respectively.

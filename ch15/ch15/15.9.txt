@@ -1,0 +1,6 @@
+Static and dynamic type can differ if the variable in question is a reference or pointer
+variable. Some examples include:
+
+a) Copy constructors and Copy-assign constructors for a Base Class (both take const references)
+b) Pointers to a Base class (can take both the Base and Derived class types)
+c) Other reference baseed function parameters

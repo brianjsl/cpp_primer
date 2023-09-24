@@ -1,0 +1,4 @@
+If the rhs member returned an empty set then no lines would be inserted into the copy
+of the lhs so we would just get the lhs lines. If the lhs member did so, we would start
+with an empty set and just add the rhs lines. If both return empty set, we start with an
+empty set and add nothing, so we still only have an empty set. All cases, as expected.

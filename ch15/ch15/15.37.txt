@@ -1,0 +1,1 @@
+We would have to use the arrow function everywhere.

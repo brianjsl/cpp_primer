@@ -1,0 +1,17 @@
+Virtual Functions:
+
+File:
+- public: size_t size() const: gives size of the file in bytes
+- public: void bytes() const: get the bytes of the file
+- protected: virtual string header() const: file header
+- private: width, height, vector<byte> contents
+- copy constructors (public)
+
+Graphical File Format:
+- pubilc: virtual void display() const = 0;
+- copy constructors (public)
+
+Specific File Type (gif/tiff/jpeg/bmp):
+- public: virtual void display() const override;
+- copy constructors (public)
+dl
